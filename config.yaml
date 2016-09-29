@@ -4,7 +4,7 @@ name: CustomFieldAutomator
 version: 0.3
 description: <MT_TRANS phrase='description of CustomFieldAutomator'>
 doc_link: http://github.com/mt_plugin-custom_field_automator
-author_name: Pierre-Henri Lavigne
+author_name: Alliance Port Inc.
 author_link: http://www.allianceport.jp
 l10n_class: CustomFieldAutomator::L10N
 blog_config_template: blog_config_template.tmpl
