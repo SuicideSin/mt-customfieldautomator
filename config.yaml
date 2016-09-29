@@ -3,7 +3,7 @@ key: MT::Plugin::CustomFieldAutomator
 name: CustomFieldAutomator
 version: 0.3
 description: <MT_TRANS phrase='description of CustomFieldAutomator'>
-doc_link: http://github.com/mt_plugin-custom_field_automator
+doc_link: https://github.com/allianceport/CustomFieldAutomator
 author_name: Alliance Port Inc.
 author_link: http://www.allianceport.jp
 l10n_class: CustomFieldAutomator::L10N
