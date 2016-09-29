@@ -1,0 +1,12 @@
+<mtapp:setting
+    id="cfieldauto_active"
+    label="<__trans phrase="One Time Activation">"
+    hint="">
+    <input type="checkbox" name="active" id="active" value="1"<mt:If name="active" eq="1"> checked="checked"</mt:If> />
+</mtapp:setting>
+<mtapp:setting
+    id="cfieldauto_key_id"
+    label="<__trans phrase="Google Spreadsheet Key">"
+    hint="">
+    <input type="text" name="key_id" id="key_id" value="<$mt:Var name="key_id" encode_html="1"$>" />
+</mtapp:setting>

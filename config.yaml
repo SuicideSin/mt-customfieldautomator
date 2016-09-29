@@ -1,0 +1,18 @@
+id: CustomFieldAutomator
+key: MT::Plugin::CustomFieldAutomator
+name: CustomFieldAutomator
+version: 0.3
+description: <MT_TRANS phrase='description of CustomFieldAutomator'>
+doc_link: http://github.com/mt_plugin-custom_field_automator
+author_name: Pierre-Henri Lavigne
+author_link: http://www.allianceport.jp
+l10n_class: CustomFieldAutomator::L10N
+blog_config_template: blog_config_template.tmpl
+settings:
+    active:
+        default: 0
+    key_id:
+        default: ''
+callbacks:
+    MT::App::CMS::template_source.footer: $CustomFieldAutomator::CustomFieldAutomator::Callbacks::template_source_footer
+    MT::App::CMS::template_param.cfg_plugin: $CustomFieldAutomator::CustomFieldAutomator::Callbacks::template_param_cfg_plugin
