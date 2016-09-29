@@ -34,3 +34,6 @@ The plugin is just using the browser HTML5 Session Storage. If something is goin
 wrong, just close the tab / window and clear your session by typing _sessionStorage.clear()_ 
 in the developer console or by restarting your browser or by emptying your history data 
 whatever.
+
+## Licence
+LGPL V3
